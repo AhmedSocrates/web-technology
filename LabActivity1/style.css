@@ -1,7 +1,7 @@
 {
-    margin: 0;
-    padding: 0;
-    box-sizing:boarder-box
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 .main{
@@ -9,7 +9,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(3.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .navbar{
@@ -73,7 +73,7 @@ ul li a:hover{
 }
 
 .srch{
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:'Times New Roman';
     width: 150px;
     height: 30px;
     background: transparent;
@@ -115,6 +115,7 @@ ul li a:hover{
     margin: absolute;
     color: #fff;
     position: relative;
+    clear: both;
 }
 
 .content h1{

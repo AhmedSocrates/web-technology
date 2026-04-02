@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width", initial-scale=1.0">
     <title>SECJ3483 Web Technology</title>
     <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="main">
@@ -23,10 +24,8 @@
     </div>
     
         <div class="search">
-
             <input class="srch" type="search" name="" placeholder="Type To Find">
-                <a href="#"> <button class="btn">Find</button></a>
-            </div>
+            <button class="btn" onclick="searchKeyword()">Find</button>
         </div>
         
         <div class="content">
@@ -37,7 +36,11 @@
             consequuntur, fugit nemo ad delectus
             <br> a quae totam ipsa illum minus laudantium?
         </p>
-            <button class="cn"><a href="#">PARTICIPATE</a></button>
+
+            <button class="cn" onclick="greetUser()">PARTICIPATE</button>
+            
+            <div id="announcement" style="margin-top: 20px; color: white; background: rgba(0,0,0,0.5); padding: 10px; border-radius: 5px;">
+            </div>
         </div>
     </div>
     </div>
